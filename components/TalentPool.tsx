@@ -2,7 +2,7 @@
 
 export default function TalentPool() {
   return (
-    <section className="relative py-24 lg:py-32 px-8 lg:px-12 overflow-hidden">
+    <section data-section-theme="light" className="relative py-24 lg:py-32 px-8 lg:px-12 overflow-hidden">
       <div className="max-w-3xl mx-auto text-center">
         {/* Decorative accent */}
         <div className="flex items-center justify-center gap-3 mb-8">

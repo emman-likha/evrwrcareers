@@ -52,12 +52,9 @@ export default function FeaturedJobs() {
   return (
     <section
       id="careers"
+      data-section-theme="dark"
       className="relative py-24 lg:py-32 px-8 lg:px-12 bg-foreground overflow-hidden"
     >
-      <span className="section-number" style={{ color: "var(--background)" }}>
-        03
-      </span>
-
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-10">

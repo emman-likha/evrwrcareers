@@ -43,9 +43,7 @@ const steps = [
 
 export default function HiringProcess() {
   return (
-    <section className="relative py-24 lg:py-32 px-8 lg:px-12 overflow-hidden">
-      <span className="section-number">07</span>
-
+    <section data-section-theme="light" className="relative py-24 lg:py-32 px-8 lg:px-12 overflow-hidden">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-14">
           <p className="text-[0.65rem] uppercase tracking-[0.4em] text-foreground/30 font-medium mb-4">

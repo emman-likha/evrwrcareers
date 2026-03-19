@@ -27,9 +27,7 @@ const departments = [
 
 export default function Departments() {
   return (
-    <section className="relative py-24 lg:py-32 px-8 lg:px-12 overflow-hidden">
-      <span className="section-number">06</span>
-
+    <section data-section-theme="light" className="relative py-24 lg:py-32 px-8 lg:px-12 overflow-hidden">
       <div className="max-w-6xl mx-auto">
         <p className="text-[0.65rem] uppercase tracking-[0.4em] text-foreground/30 font-medium mb-4">
           Teams

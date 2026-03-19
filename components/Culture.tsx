@@ -26,12 +26,9 @@ export default function Culture() {
   return (
     <section
       id="culture"
+      data-section-theme="dark"
       className="relative py-24 lg:py-32 px-8 lg:px-12 bg-foreground overflow-hidden"
     >
-      <span className="section-number" style={{ color: "var(--background)" }}>
-        05
-      </span>
-
       <div className="max-w-6xl mx-auto">
         <p className="text-[0.65rem] uppercase tracking-[0.4em] text-background/30 font-medium mb-4">
           Our Culture
